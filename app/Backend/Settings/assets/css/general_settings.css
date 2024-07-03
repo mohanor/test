@@ -1,0 +1,18 @@
+.bkntc_recaptcha_area {
+    min-width: 300px !important;
+}
+.bkntc-settings-group-header
+{
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+[data-hide-key=recaptcha]{
+    opacity: 0;
+    user-select: none;
+}
+
+[data-hide-key=recaptcha].enable-google-recaptcha{
+    opacity: 1;
+    user-select: initial;
+}
